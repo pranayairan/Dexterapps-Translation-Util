@@ -17,9 +17,7 @@ package com.dexterapps.android.translator;
 
 import com.dexterapps.android.translator.pojo.IOSStringMapping;
 import com.memetix.mst.language.Language;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -87,8 +85,8 @@ public class TranslateAndSaveiOS implements Runnable {
             if (!file.exists()) {
                 file.mkdir();
             }
-                FileWriter fileWriter = new FileWriter(outPutFolder + "/" + countryCode+"/Localizable.strings");
-                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+               
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outPutFolder + "/" + countryCode+"/Localizable.strings"),"UTF-8"));
 
                 for (int i = 0; i < iOSStringDOM.size(); i++) {
                     IOSStringMapping stringMapping = iOSStringDOM.get(i);
