@@ -3,6 +3,8 @@ DexterApps Translation Util is a simple utility that can take an Android project
 
 Dexterapps Translation Util uses Microsoft Translate API to translate text into 39 different languages. 
 
+Inspired from : https://code.google.com/p/android-string-resource-translator/
+
 ##Supported Languages
 English <br/>
 Arabic <br/>
