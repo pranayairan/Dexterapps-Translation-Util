@@ -39,7 +39,7 @@ public class SupportedLanguage {
     
    
     public static String[] supportedLanguage = {
-        "English", "Arabic", "Bulgarian", "Catalan", "Chinies Simplified", "Chinies Traditional",
+        "English", "Arabic", "Bulgarian", "Catalan", "Chinese Simplified", "Chinese Traditional",
         "Czech", "Danish", "Dutch (Standard)","Estonian", "Finnish", "French", "German", "Greek",
         "Hebrew", "Hindi", "Hungarian", "Indonesian", "Italian ", "Japanese", "Korean", "Latvian", "Lithuanian",
         "Malaysian", "Norwegian", "Farsi", "Polish", "Portuguese ", "Romanian", "Russian",
@@ -52,8 +52,8 @@ public class SupportedLanguage {
         languageCodeMap.put("Arabic", "ar");
         languageCodeMap.put("Bulgarian", "bg");
         languageCodeMap.put("Catalan", "ca");
-        languageCodeMap.put("Chinies Simplified", "zh-CHS");
-        languageCodeMap.put("Chinies Traditional", "zh-CHT");
+        languageCodeMap.put("Chinese Simplified", "zh-CHS");
+        languageCodeMap.put("Chinese Traditional", "zh-CHT");
         languageCodeMap.put("Czech", "cs");
         languageCodeMap.put("Danish", "da");
         languageCodeMap.put("Dutch (Standard)", "nl");
@@ -72,7 +72,6 @@ public class SupportedLanguage {
         languageCodeMap.put("Latvian", "lv");
         languageCodeMap.put("Lithuanian", "lt");
         languageCodeMap.put("Malaysian", "ms");
-        languageCodeMap.put("Maltese", "mt");
         languageCodeMap.put("Norwegian", "no");
         languageCodeMap.put("Farsi", "fa");
         languageCodeMap.put("Polish", "pl");
